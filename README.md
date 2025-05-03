@@ -8,3 +8,7 @@ This project's main theme will be a grocery list type of application where it wi
 <img width="684" alt="Screenshot 2025-04-09 at 11 47 37 PM" src="https://github.com/user-attachments/assets/923dbdb3-8796-4dc5-ac6d-965e1af545e2" />
 <img width="1257" alt="Screenshot 2025-04-09 at 11 48 29 PM" src="https://github.com/user-attachments/assets/8c596a13-2b1e-477c-9d0f-80a6c3812a9d" />
 <img width="1228" alt="Screenshot 2025-04-09 at 11 48 49 PM" src="https://github.com/user-attachments/assets/38bad6c6-8170-42ea-9769-4f0f84a738b5" />
+
+
+## THings to note
+Please click the laod items button any time you add or delete items from the database, as otherwise you will not see any changes made

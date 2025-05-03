@@ -9,6 +9,9 @@ table{
   border: 1px solid #000000;
 }
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 
+}
+#items-table {
+  background-color: red;
 }
