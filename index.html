@@ -4,16 +4,20 @@
   <meta charset="utf-8">
   <title>Final project-Grocery</title>
   <nav class="nav-links">
-    <div><a href="index.html">Grocery List(home)</a></div>
-    <div><a href="prev.html">Previous Weeks</a></div>
-    <div><a href="current.html">Current</a></div>
+    <div><a href="index.html">Grocery List(home)  </a></div>
+    <div><a href="prev.html">Previous Weeks.</a></div>
+    <div><a href="current.html">Current   </a></div>
   </nav>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body
-<br>
+<body>
+
   <h1>Welcome To Grocery List 1.0!</h1>
-  <p>To get started, click on the Load database button below that will load all of your grocery items</p>
+  <p>To get started, click on the Load database button below that 
+    will load all of your grocery items(do this any time you make a
+     change like adding or deleting items)</p>
+
+  
   <!-- where the placeholders for the laod items table go -->
   <h3>Load Items</h3>
   <button id="load-data">Load</button>
@@ -45,9 +49,6 @@
   <h3>Delete Item</h3>
   <input id="delete-id" placeholder="ID to delete">
   <button id="delete-data">Delete</button>
-
-
-
 
 
 
@@ -112,7 +113,7 @@
       fetch(`${API_BASE}/${id}`, {
         method: "DELETE",
       })
-      .then(res => res.text())
+      .then(res => res.text()) 
     };
   </script>
 </body>

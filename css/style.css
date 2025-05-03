@@ -2,6 +2,10 @@ h1{
   border-color: #000000;
   border-style: solid;
 }
+body{
+  background-color: #05ff7e;
+  margin: 10px;
+}
 header{
   background-color: #f70202;
 }
@@ -13,5 +17,9 @@ table, th, td {
 
 }
 #items-table {
-  background-color: red;
+  background-color: rgb(178, 197, 253);
+}
+nav{
+  display: flex;
+  gap: 10px;
 }
